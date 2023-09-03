@@ -84,7 +84,7 @@ function colors(color) {
          return "Color not found";
    }
 }
-console.log(colors("red"));
+// console.log(colors("red"));
 
 function esDiezOCinco(num) {
    // Retornar true si "num" es 10 o 5.
@@ -104,7 +104,7 @@ function estaEnRango(num) {
    // Tu código:
    return num > 20 && num < 50;
 }
-console.log(estaEnRango(38));
+// console.log(estaEnRango(38));
 
 function esEntero(num) {
    // Retornar true si "num" es un entero, ya sea positivo, negativo o cero.
@@ -181,7 +181,7 @@ function esVerdadero(valor) {
    // Caso contrario, retornar "Soy falso".
    // Tu código:
    if (valor === true) {
-      return "Soy Verdadero"
+      return "Soy verdadero"
    } else {
       return "Soy falso"
    }
