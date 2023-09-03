@@ -22,7 +22,7 @@ function tienenMismaLongitud(str1, str2) {
       return(false);
    }
 }
-console.log(tienenMismaLongitud("hola", "adios"));
+// console.log(tienenMismaLongitud("hola", "adios"));
 
 function menosQueNoventa(num) {
    // Retorna true si el argumento "num" es menor que noventa.
@@ -34,7 +34,7 @@ function menosQueNoventa(num) {
       return false;
    }
 }
-console.log(menosQueNoventa(500));
+// console.log(menosQueNoventa(500));
 
 function mayorQueCincuenta(num) {
    // Retorna true si el argumento "num" es mayor que cincuenta.
@@ -46,7 +46,7 @@ function mayorQueCincuenta(num) {
       return false
    }
 }
-console.log(mayorQueCincuenta(55));
+// console.log(mayorQueCincuenta(55));
 
 function esPar(num) {
    // Retorna true si "num" es par.
@@ -58,7 +58,7 @@ function esPar(num) {
       return false;
    }
 }
-console.log(esPar(5));
+// console.log(esPar(5));
 
 function esImpar(num) {
    // Retorna true si "num" es impar.
@@ -70,7 +70,7 @@ function esImpar(num) {
       return false;
    }
 }
-console.log(esImpar(5));
+// console.log(esImpar(5));
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {

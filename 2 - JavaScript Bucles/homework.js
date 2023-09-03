@@ -11,7 +11,7 @@ function obtenerMayor(x, y) {
       return y;
    }
 }
-console.log(obtenerMayor(7, 13));
+// console.log(obtenerMayor(7, 13));
 
 function mayoriaDeEdad(edad) {
    // Determinar si la persona puede ingresar al evento según su edad.
@@ -24,7 +24,7 @@ function mayoriaDeEdad(edad) {
       return "Not allowed"
    }
 }
-console.log(mayoriaDeEdad(19))
+// console.log(mayoriaDeEdad(19))
 
 function conection(status) {
    // El argumento "status" representa el estado de conexión de un usuario.
@@ -41,7 +41,7 @@ function conection(status) {
       return "Offline";
    }
 }
-console.log(conection(2));
+// console.log(conection(2));
 
 function saludo(idioma) {
    // Retornar un saludo en tres diferentes lenguajes:
@@ -60,7 +60,7 @@ function saludo(idioma) {
       return "Hola!";
    }
 }
-console.log(saludo("ingles"));
+// console.log(saludo("ingles"));
 
 function colors(color) {
    // La función recibe un color. Retornar el string correspondiente:
@@ -96,7 +96,7 @@ function esDiezOCinco(num) {
       return false;
    }
 }
-console.log(esDiezOCinco(5));
+// console.log(esDiezOCinco(5));
 
 function estaEnRango(num) {
    // Retornar true si "num" es menor que 50 y mayor que 20.
@@ -115,7 +115,7 @@ function esEntero(num) {
    // Tu código:
    return num % 1 === 0;
 }
-console.log(esEntero(0));
+// console.log(esEntero(0));
 
 function fizzBuzz(num) {
    // Si "num" es divisible entre 3, retorna "fizz".
@@ -133,7 +133,7 @@ function fizzBuzz(num) {
       return false;
    }
 }
-console.log(fizzBuzz(15));
+// console.log(fizzBuzz(15));
 
 function operadoresLogicos(num1, num2, num3) {
    // La función recibe tres números distintos.
@@ -203,6 +203,14 @@ function doWhile(num) {
    // Retornar el valor final.
    // Utilizar el bucle Do-While.
    // Tu código:
+   let veces = 8;
+   let resultado = 0;
+
+   do{
+      resultado += 5; // resultado = resultado + 5;
+      veces -= 1;     //veces = veces - 1; 
+   } while (veces !== 0)
+      return num + resultado;
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/

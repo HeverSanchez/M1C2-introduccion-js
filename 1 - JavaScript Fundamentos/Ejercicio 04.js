@@ -8,14 +8,14 @@ function elevarAlCuadrado(num) {
    // Tu código:
    return num * num;
 }
-console.log(elevarAlCuadrado(2));
+// console.log(elevarAlCuadrado(2));
 
 function elevarAlCubo(num) {
    // Retorna el valor de "num" elevado al cubo.
    // Tu código:
    return num * num * num;
 }
-console.log(elevarAlCubo(3));
+// console.log(elevarAlCubo(3));
 
 function elevar(num, exponent) {
    // Retorna el valor de "num" elevado al exponente "exponent".
@@ -26,7 +26,7 @@ function elevar(num, exponent) {
    } 
    return result;
 }
-console.log(elevar(2, 4));
+// console.log(elevar(2, 4));
 
 function redondearNumero(num) {
    // Redondea "num" al entero más próximo y retórnalo.

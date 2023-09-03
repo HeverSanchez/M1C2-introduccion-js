@@ -16,7 +16,7 @@ function esPositivo(num) {
       return false
    }
 }
-console.log(esPositivo(10))
+// console.log(esPositivo(10))
 
 function agregarSimboloExclamacion(str) {
    // Agrega un símbolo de exclamación al final del string "str" y retórnalo
@@ -24,7 +24,7 @@ function agregarSimboloExclamacion(str) {
    // Tu código:
    return str + "!";
 }
-console.log(agregarSimboloExclamacion("hello world"));
+// console.log(agregarSimboloExclamacion("hello world"));
 
 function combinarNombres(nombre, apellido) {
    // Retorna "nombre" y "apellido" combinados en un mismo string pero separados por un espacio.
@@ -32,7 +32,7 @@ function combinarNombres(nombre, apellido) {
    // Tu código:
    return nombre + " " + apellido;
 }
-console.log(combinarNombres("Soy", "Henry"));
+// console.log(combinarNombres("Soy", "Henry"));
 
 function obtenerSaludo(nombre) {
    // Toma el string "nombre" y concatena otra string en la cadena para que tome la siguiente forma:
@@ -40,7 +40,7 @@ function obtenerSaludo(nombre) {
    // Tu código:
    return "Hola " + nombre + "!";
 }
-console.log(obtenerSaludo("Martin"));
+// console.log(obtenerSaludo("Martin"));
 
 function obtenerAreaRectangulo(alto, ancho) {
    // Retornar el área de un rectángulo teniendo su altura y ancho.
@@ -80,7 +80,7 @@ function esVocal(letra) {
       return "Dato incorrecto"
    }
 }
-console.log(esVocal("hola"));
+// console.log(esVocal("hola"));
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
